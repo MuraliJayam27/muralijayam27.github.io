@@ -1,0 +1,355 @@
+/* variables */
+:root {
+  --red: #EF7F73ff;
+  --blue: #77A7DAff;
+  --green: #8AC282ff;
+  --yellow: #EAC060ff;
+  --violet: #AF85C7ff;
+  --dark: #20242Aff;
+  --light: #282C33ff;
+  --body-text: #5C6370 ;
+  --head-text: #686F79 ;
+  --head-blue: #598DEF ;
+}
+
+/* css hacks and tricks */
+.clear {
+  clear: both;
+}
+
+html, body
+{
+    height: 100%;
+    font-family: avenir;
+    /* from overflowing the body in browser, hides white thing when we scroll */
+    /* overflow:hidden; */
+}
+
+*{
+ box-sizing: border-box;
+ }
+ /* border box hack */
+
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+
+
+/* container div ***********************/
+
+.container{
+  height: 100%;
+}
+
+/* *********************************** */
+
+/* header section ***********************/
+
+.header {
+  height: 12% ;
+}
+
+.head {
+  height: 100% ;
+  width: 50% ;
+  float: left;
+  background: var(--dark) ;
+  border: 1px solid black ;
+  padding: 5px;
+  font-family: avenir;
+  transition-duration: 0.0s ;
+  color: var(--head-text) ;
+  position: relative;
+}
+
+.head h2{
+  font-weight: 500;
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+.head:hover {
+  background: var(--light) ;
+  border-left: 2px solid var(--head-blue) ;
+}
+
+.head:hover h2 {
+  color: white ;
+}
+
+/* head specific to the page */
+/* #head1 {
+  background: var(--light) ;
+  border-left: 2px solid var(--head-blue) ;
+  color: white;
+} */
+
+
+/* ********************************** */
+
+
+/* sidebar section ***********************/
+.sidebar{
+  height: 10% ;
+  width: 100%;
+  display: none;
+}
+
+.side{
+  float: left;
+  height: 100% ;
+  width: 50% ;
+  background: var(--light) ;
+  border: 1px solid black ;
+  font-family: avenir;
+  position: relative;
+}
+
+.side h2 {
+  font-weight: 500;
+  /* transform: rotate(-90deg); */
+  color: var(--head-text) ;
+  /* rotation */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ********************************** */
+
+/* tabs section ***********************/
+.tabs{
+  overflow : scroll;
+  float: left;
+  width: 37.5%;
+  height: 80% ;
+}
+
+.tab {
+  width: 100% ;
+  height: 25% ;
+  background: white ;
+  border: 1px solid black ;
+  font-family: avenir;
+}
+
+.tab:nth-child(5n + 1){
+  background: var(--red) ;
+}
+
+.tab:nth-child(5n + 2){
+  background: var(--blue) ;
+}
+
+.tab:nth-child(5n + 3){
+  background: var(--green) ;
+}
+
+.tab:nth-child(5n + 4){
+  background: var(--yellow) ;
+}
+
+.tab:nth-child(5n + 5){
+  background: var(--violet) ;
+}
+
+.tabtitle h3 {
+  font-weight: 500;
+  font-size: 3vh ;   /* 22 px */
+  margin-left: 20px;
+  margin-bottom: 0;
+
+}
+
+.tabtitle p {
+  margin-left: 20px;
+  font-size: 2vh ;
+  margin-top: 4px;
+}
+
+.tabtitle {
+  float: left;
+  width: 80% ;
+  height: 100% ;
+}
+
+/* *******************cross button css******************** */
+.tabb {
+  display: none ;
+  float: left ;
+  width: 20% ;
+  height: 100% ;
+  position: relative;
+}
+
+.tabb a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin : 0 ;
+  font-weight: 700 ;
+  color: var(--head-text);
+  border-radius: 5px ;
+}
+
+.tabb a:hover{
+  color: var(--head-blue) ;
+}
+/* cross button css end */
+
+/* viewer section ***********************/
+
+.viewer{
+  height: 80% ;
+  width: 62.5% ;
+  float: left;
+  text-align: center;
+}
+
+.view {
+  background: var(--light) ;
+  height: 100% ;
+  width: 100% ;
+  border: 1px solid black ;
+  padding: 5%;
+  font-family: avenir;
+  color: var(--body-text) ;
+  overflow: scroll;
+}
+
+.view img{
+  /* width: 50% ; */
+  width: 75% ;
+}
+
+.view p{
+  text-align: left;
+  color: white ;
+  font-size: 14px ;
+}
+
+/* icons */
+
+.icons {
+  /* hack to remove the black space between icons or any html tag,
+    this was a issue as the cursor change to that of text selection while
+    moving on the icons
+   */
+  font-size: 0 ;
+}
+
+.fa {
+  padding: 1% ;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 1% ;
+  color: var(--head-text) ;
+}
+
+.fa:hover{
+  color: white ;
+}
+
+
+
+
+
+/* ************************************ */
+
+/* footer section ***********************/
+.footer {
+  height: 8% ;
+  font-size: 12px;
+}
+
+.foot {
+  background: var(--dark) ;
+  width: 100% ;
+  height: 100% ;
+  border: 1px solid black ;
+  text-align: center;
+  color: var(--body-text) ;
+  padding-top: 1vh;
+}
+
+.atom {
+  font-size: 25px ;
+  color: var(--green) ;
+}
+
+/* ************************************ */
+
+.tabs .selectedTab{
+  background: var(--light);
+  border-left: 4px solid var(--head-blue);
+  color:white;
+}
+
+
+/* media query */
+/* for responsive website : mobile first approach is the best */
+@media only screen and (min-width:850px){
+
+html, body{
+  overflow:hidden;
+}
+
+.head {
+  width: 25% ;
+}
+
+.tabs{
+  overflow: scroll;
+}
+
+.tabtitle p{
+  font-size: 2.5vh ;
+}
+
+.tabtitle h3{
+  font-size: 3.5vh;
+}
+
+.sidebar{
+  float: left;
+  width: 12.5% ;
+  height: 80% ;
+  display: block;
+}
+
+.side{
+  height: 50% ;
+  width: 100%;
+}
+
+.viewer{
+  width: 50%;
+}
+
+.view p{
+  font-size: 2.3vh ;
+}
+
+.view img{
+  width: 40vh;
+}
+
+.footer{
+  font-size: 15px ;
+}
+
+
+}
