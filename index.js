@@ -3,7 +3,7 @@ var defHTML = document.getElementsByClassName('view') ;
 var def = defHTML[0].innerHTML ;
 
 var tab1c =
-"<h1> Hello there, I am Murali Jayam </h1><p>I am a student at IIIT Bangalore, pursuing computer science Engineering and exploring different domains of it. Currently, I am interested in various applications of computer science and design. I'm also an art, aviation, and automobile enthusiast.</p><p> People Best describes me as<br><br> A learning enthusiast who is forever excited to learn about anything tech, mainly about design. You can see him designing for almost all the events in college. He never steps down if there is something to design.</p>";
+"<h1> Hello there, I am Murali Jayam </h1><p>I am a student at IIIT Bangalore, pursuing computer science Engineering and exploring different domains of it. Currently, I am interested in various applications of computer science and design. I'm also an art, aviation, and automobile enthusiast.</p><p> People Best describe me as<br><br> A learning enthusiast who is forever excited to learn about anything tech, mainly about design. You can see him designing for almost all the events in college. He never steps down if there is something to design.</p>";
 
 var tab2c =
 "<h1>Designing, Tools, Coding</h1> <p>I love designing, and recently I have started learning UI/UX Design. I like problem-solving and creative solutions, and I try to slove them by applying design.</p><p>I have worked with the following tools: Figma, Adobe Illustrator, Affinity Designer, Canva.</p><p>From college, I have learned various computers science courses.</p><p>To list out, I have worked with the following languages: C, Python, Java, C++, HTML, LaTex.</p>";
