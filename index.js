@@ -3,16 +3,16 @@ var defHTML = document.getElementsByClassName('view') ;
 var def = defHTML[0].innerHTML ;
 
 var tab1c =
-"<h1> Hello there, I am Nikhil </h1><p>I am a sophomore at IIIT Bangalore, pursuing computer science Engineering and exploring different domains of it. Currently, I am interested in various applications of computer science and web-dev</p><p> People Best describes me as<br><br> A learning enthusiast who is forever excited to learn about anything tech. You can see him jamming to the craziest music at the weirdest of times. Not a particular fan of sports but gives it a try to keep his friends company. When he doesn't have a smile on his face, he is busy coming up with some new abstract art.</p>";
+"<h1> Hello there, I am Murali Jayam </h1><p>I am a student at IIIT Bangalore, pursuing computer science Engineering and exploring different domains of it. Currently, I am interested in various applications of computer science and design. I'm also an art, aviation, and automobile enthusiast.</p><p> People Best describes me as<br><br> A learning enthusiast who is forever excited to learn about anything tech, mainly about design. You can see him designing for almost all the events in college. He never steps down if there is something to design.</p>";
 
 var tab2c =
-"<h1>Coding, Projects, Courses</h1> <p>I love working in Python, and recently I have started learning Java and OOPS to enter the world of classes and objects. I like problem-solving and creative solutions, and my projects are base on those ideas (You can check them on the PROJECT tab).</p><p>From college, I have learned various computers science courses, such as Computer architecture, Digital Design, Data Structures and Algorithms, Linear Algebra, Calculus, and more.</p><p>To list out, I have worked with the following languages: C, Python, Java, HTML, CSS, Javascript, LaTex.</p>" ;
+"<h1>Designing, Tools, Coding</h1> <p>I love designing, and recently I have started learning UI/UX Design. I like problem-solving and creative solutions, and I try to slove them by applying design.</p><p>I have worked with the following tools: Figma, Adobe Illustrator, Affinity Designer, Canva.</p><p>From college, I have learned various computers science courses.</p><p>To list out, I have worked with the following languages: C, Python, Java, C++, HTML, LaTex.</p>";
 
 var tab3c =
-"<h1>IIIT, Bangalore</h1> <p>I am in Second Year at IIITB. It's a great college with an excellent course structure and various Computer Science domain to explore. People work hard here, and we are always at our toes with lots of assignments and work, but at the same time, we have fun through various events throughout the year. Our college also focuses on research and overall development as an engineer.</p>" ;
+"<h1>IIIT, Bangalore</h1> <p>I am in Third Year at IIITB. It's a great college with an excellent course structure and various Computer Science domain to explore. People work hard here, and we are always at our toes with lots of assignments and work, but at the same time, we have fun through various events throughout the year. Our college also focuses on research and overall development as an engineer.</p>" ;
 
 var tab4c =
-"<h1>Python modules, and techs</h1> <p>As I said, I like working with python, and therefore I keep exploring various modules and small useful projects. I take a huge interest in anything technical and require problem-solving. Most of the time, I try to come up with new and crazy ideas with my friends (most recent is the FunTex).</p><p>Apart from all this, I have various other interests, which you can be seen on the PLAY tab.</p>";
+"<h1>Designing, and techs</h1> <p>As I said, I like designing, and therefore I keep exploring various design systems. I take a huge interest in designing, it maybe a poster, banner, UI/UX design for a project. Most of the time, I try to come up with new design ideas exploring the internet(currently working on a food ordering app's UI/UX design).</p><p>Apart from all this, I keep myself updated with the latest aviation and automobile news.</p>";
 
 
 var view = document.getElementsByClassName('view') ;
